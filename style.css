@@ -1,0 +1,99 @@
+
+.form-heading {
+    text-align: center;
+}
+
+.order-form {
+    width: 70%;
+    max-width: 500px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+/* Input and label styles */
+.order-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.order-form input,
+.order-form select,
+.order-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.order-form input[type="color"] {
+    height: 40px; /* Adjust the height as needed */
+}
+
+.order-form input[type="submit"] {
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+}
+
+
+.order-form {
+    width: 70%;
+    max-width: 500px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Input and label styles */
+.order-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.order-form input,
+.order-form select,
+.order-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.order-form input[type="color"] {
+    height: 40px; /* Adjust the height as needed */
+}
+
+.order-form input[type="submit"] {
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+}
+#receipt {
+    border: 2px solid #ccc;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: #f9f9f9;
+}
+
+#receipt h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#receipt p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+#receipt span {
+    font-weight: bold;
+}
